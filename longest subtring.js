@@ -1,7 +1,7 @@
 const str1='CCASASTYUIOPFGHJKLSDFGHJKXCVBNMDFGHTYU'
 const str2='DGFSADWJNKQEVAYTUIOPYUIOPSAFJBVAJSRHJWQ'
 
-const findc=(str1='',str2='')=>{
+const substringFinder=(str1='',str2='')=>{
     const s1=[...str1];
     const s2=[...str2];
     const arr= Array(s2.length +1).fill(null).map(()=>{
@@ -44,4 +44,4 @@ const findc=(str1='',str2='')=>{
     return res;
 
 };
-console.log(findc(str1,str2));
+console.log(substringFinder(str1,str2));
